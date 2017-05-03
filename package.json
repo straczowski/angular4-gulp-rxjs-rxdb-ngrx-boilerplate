@@ -1,0 +1,51 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server": "lite-server -c config/lite-server.json",
+    "build": "gulp build:dev",
+    "watch": "watch:ts"
+  },
+  "author": "Raoul Straczowski @ Elastic Brains GmbH",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "~4.0.0",
+    "@angular/compiler": "~4.0.0",
+    "@angular/core": "~4.0.0",
+    "@angular/forms": "~4.0.0",
+    "@angular/http": "~4.0.0",
+    "@angular/platform-browser": "~4.0.0",
+    "@angular/platform-browser-dynamic": "~4.0.0",
+    "@angular/router": "~4.0.0",
+    "@ngrx/core": "^1.2.0",
+    "@ngrx/store": "^2.2.2",
+    "angular-in-memory-web-api": "^0.3.1",
+    "babel-polyfill": "^6.23.0",
+    "core-js": "^2.4.1",
+    "lodash": "^4.16.4",
+    "rxdb": "^3.0.8",
+    "rxjs": "^5.2.0",
+    "systemjs": "0.19.40",
+    "systemjs-plugin-text": "0.0.9",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@types/jasmine": "2.5.36",
+    "@types/node": "^6.0.46",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-typescript": "^3.1.6",
+    "lite-server": "^2.2.2",
+    "require-dir": "^0.3.1",
+    "run-sequence": "^1.2.2",
+    "systemjs-builder": "0.16.4",
+    "tslint": "^3.15.1",
+    "typescript": "~2.1.0"
+  }
+}

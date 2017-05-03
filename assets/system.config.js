@@ -27,10 +27,19 @@
       //'traceur':                      'npm:traceur/src/traceur.js',
       'rxjs':                      'npm:rxjs',
       //'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
-      'rxdb':                      'npm:rxdb',
       '@ngrx/core':                'npm:@ngrx/core',
       '@ngrx/store':               'npm:@ngrx/store',
 
+      //RxDB Dependencies
+      /*'rxdb':                     'npm:rxdb',
+      'object-path':              'npm:object-path/index.js',
+      'random-token':             'npm:random-token/index.js',
+      'clone':                    'npm:clone/clone.js',
+      'is-my-json-valid':         'npm:is-my-json-valid/index.js',
+      'pouchdb-core':             'npm:pouchdb-core/lib/index.js',
+      'pouchdb-find':             'npm:pouchdb-find/lib/index.js',
+      ...*/
+      
       //plugins
       'text':                      'npm:systemjs-plugin-text/text.js'
     },
